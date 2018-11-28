@@ -20,7 +20,6 @@ tags:
 >
 > 简书：[雷园的简书](https://www.jianshu.com/u/016322e40e1f)
 >
-> 某宝优惠：[优惠网站](www.innerstudent.group)
 
 # 使用fastjson对JSON、实体类、列表转换
 
