@@ -54,7 +54,7 @@ tags:
 **拉取方式**
 
 ```shell
-$ docker pull ly15326047083/fdfs:1.0
+$ docker pull ly15326047083/fastdfs
 ```
 
 **相关环境变量**
