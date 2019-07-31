@@ -178,11 +178,13 @@ layout: default
                     </div>
                     <a href="javascript:void(0);" onclick="closeTaoBao()"><h5>关闭广告</h5></a>
                     <script>
-                        paras = document.getElementsByClassName('leiyuan');
-                        for(let i=0; i<paras.length; i++){
-                            //删除元素 元素.parentNode.removeChild(元素);
-                            if (paras[i] != null)
-                                paras[i].parentNode.removeChild( paras[i]);
+                        function closeTaoBao(){
+                            paras = document.getElementsByClassName('leiyuan');
+                            for(let i=0; i<paras.length; i++){
+                                //删除元素 元素.parentNode.removeChild(元素);
+                                if (paras[i] != null)
+                                    paras[i].parentNode.removeChild( paras[i]);
+                            }
                         }
                     </script>
                 </div>
