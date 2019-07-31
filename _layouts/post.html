@@ -183,7 +183,7 @@ layout: default
 
                                     var str="";
                                     for (let i=0;i<data.goodsList.length;i++){
-                                        str=str+"<div><a href='"+data.goodsList[i].goodsUrl+"'><img src='"+data.goodsList[i].imgUrl+"' style='width: 150px;height: 150px'></a><a href='"+data.goodsList[i].juanUrl+"'><h3>点我领劵</h3></a></div>";
+                                        str=str+"<div><a href='"+data.goodsList[i].goodsUrl+"' target='view_window'><img src='"+data.goodsList[i].imgUrl+"' style='width: 150px;height: 150px'></a><a href='"+data.goodsList[i].juanUrl+"' target='view_window'><h3>点我领劵</h3></a></div>";
                                     }
                                     $("#leiyuan").append(str);
                                 }else console.log(data);
