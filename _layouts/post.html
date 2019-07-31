@@ -161,7 +161,7 @@ layout: default
                     </h5>
                     <ul class="catalog-body"></ul>
                 </div>
-                <div class="side-catalog">
+                <div class="side-catalog" id="leiyuan">
                     <hr class="hidden-sm hidden-xs">
                     <h5>本期淘宝商品推荐</h5>
                     <div class="leiyuan">
@@ -179,12 +179,9 @@ layout: default
                     <a href="javascript:void(0);" onclick="closeTaoBao()"><h5>关闭广告</h5></a>
                     <script>
                         function closeTaoBao(){
-                            paras = document.getElementsByClassName('leiyuan');
-                            for(let i=0; i<paras.length; i++){
-                                //删除元素 元素.parentNode.removeChild(元素);
-                                if (paras[i] != null)
-                                    paras[i].parentNode.removeChild( paras[i]);
-                            }
+                            paras = document.getElementById('leiyuan');
+                            if (paras != null)
+                                paras.parentNode.removeChild(paras);
                         }
                     </script>
                 </div>
