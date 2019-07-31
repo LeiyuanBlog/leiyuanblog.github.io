@@ -112,7 +112,7 @@ layout: default
                     {% endif %}
                 </ul>
 
-
+                
                 <!--Gitalk评论start  -->
                 {% if site.gitalk.enable %}
                 <!-- 引入Gitalk评论插件  -->
@@ -129,14 +129,9 @@ layout: default
                         repo: '{{site.gitalk.repo}}',
                         owner: '{{site.gitalk.owner}}',
                         admin: ['{{site.gitalk.admin}}'],
-                        distractionFreeMode: {
-                    {
-                        site.gitalk.distractionFreeMode
-                    }
-                    },
+                        distractionFreeMode: {{site.gitalk.distractionFreeMode}},
                     id: md5(location.pathname),
-                    })
-                    ;
+                    });
                     gitalk.render('gitalk-container');
                 </script>
                 {% endif %}
