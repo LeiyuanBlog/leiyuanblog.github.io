@@ -164,18 +164,27 @@ layout: default
                 <div class="side-catalog">
                     <hr class="hidden-sm hidden-xs">
                     <h5>本期淘宝商品推荐</h5>
-                    <div>
+                    <div class="leiyuan">
                         <a href="https://s.click.taobao.com/WAPiP4w"><img src="https://img.alicdn.com/bao/uploaded/i1/2200780559224/O1CN01YUP1BR2I0drJ51zyt_!!0-item_pic.jpg_200x200_.webp"></a>
-                        <a href="https://s.click.taobao.com/vwPiP4w"><h5>点我领劵</h5></a>
+                        <a href="https://s.click.taobao.com/vwPiP4w"><h3>点我领劵</h3></a>
                     </div>
-                    <div>
+                    <div class="leiyuan">
                         <a href="https://s.click.taobao.com/wKshP4w"><img src="https://img.alicdn.com/bao/uploaded/i3/2930255252/O1CN01CHYXvl1ofSgJK5NAJ_!!0-item_pic.jpg_200x200_.webp"></a>
-                        <a href="https://s.click.taobao.com/5MthP4w"><h5>点我领劵</h5></a>
+                        <a href="https://s.click.taobao.com/5MthP4w"><h3>点我领劵</h3></a>
                     </div>
-                    <div>
+                    <div class="leiyuan">
                         <a href="https://s.click.taobao.com/UOhhP4w"><img src="https://img.alicdn.com/bao/uploaded/i2/2200733839241/O1CN01wnV6wf2I8QaYwn6zt_!!0-item_pic.jpg_200x200_.webp"></a>
-                        <a href="https://s.click.taobao.com/73dhP4w"><h5>点我领劵</h5></a>
+                        <a href="https://s.click.taobao.com/73dhP4w"><h3>点我领劵</h3></a>
                     </div>
+                    <a href="javascript:void(0);" onclick="closeTaoBao()"><h5>关闭广告</h5></a>
+                    <script>
+                        paras = document.getElementsByClassName('leiyuan');
+                        for(let i=0; i<paras.length; i++){
+                            //删除元素 元素.parentNode.removeChild(元素);
+                            if (paras[i] != null)
+                                paras[i].parentNode.removeChild( paras[i]);
+                        }
+                    </script>
                 </div>
             </div>
             {% endif %}
