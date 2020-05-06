@@ -12,6 +12,16 @@ tags:
     - sonarqube
 ---
 
+> 欢迎大家关注我的以下主页，尤其是今日头条！！！谢谢🙏🙏🙏
+>
+> csdn：[雷园的csdn博客](https://blog.csdn.net/leiyuan2580)
+>
+> 个人博客：[雷园的个人博客](https://imlcl.store)
+>
+> 简书：[雷园的简书](https://www.jianshu.com/u/016322e40e1f)
+>
+> 今日头条：[来自底层程序员的仰望](https://www.toutiao.com/c/user/6132192948/#mid=1616456407686158)
+
 #### The first step is to download the latest version of sonarqube7.4
 
 1.[Official download address](https://www.sonarqube.org/downloads/)，Download community edition, is open source free.
