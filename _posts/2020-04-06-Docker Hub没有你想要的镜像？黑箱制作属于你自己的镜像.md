@@ -7,8 +7,7 @@ author:     LY
 header-img: img/post-docker-bk.png
 catalog: true
 tags:
-    - docker
-	- 专栏
+    - 专栏
 
 ---
 

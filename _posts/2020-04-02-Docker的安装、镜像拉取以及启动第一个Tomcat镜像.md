@@ -7,8 +7,7 @@ author:     LY
 header-img: img/post-docker-bk.png
 catalog: true
 tags:
-    - docker
-	- 专栏
+    - 专栏
 ---
 
 > 欢迎大家关注我的以下主页，尤其是今日头条！！！谢谢🙏🙏🙏
