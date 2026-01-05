@@ -99,19 +99,24 @@ service-worker: true
 # Friends
 friends: [
     {
-        title: "简书·雷园LY",
-        href: "http://www.jianshu.com/u/016322e40e1f"
-    },{
-        title: "Apple",
-        href: "https://apple.com"
-    },{
-        title: "Apple Developer",
-        href: "https://developer.apple.com/"
-    },{
-        title: "来自底层程序员的仰望",
-        href: "https://www.toutiao.com/c/user/6132192948/#mid=1616456407686158"
-    },{
-        title: "雷园的博客",
-        href: "https://blog.csdn.net/leiyuan2580"
+        title: "私密聊天",
+        href: "https://private.imlcl.store"
+    },
+    {
+        title: "JSON 工具",
+        href: "https://json.imlcl.store"
     }
+    # ,{
+    #     title: "Apple",
+    #     href: "https://apple.com"
+    # },{
+    #     title: "Apple Developer",
+    #     href: "https://developer.apple.com/"
+    # },{
+    #     title: "来自底层程序员的仰望",
+    #     href: "https://www.toutiao.com/c/user/6132192948/#mid=1616456407686158"
+    # },{
+    #     title: "雷园的博客",
+    #     href: "https://blog.csdn.net/leiyuan2580"
+    # }
 ]
