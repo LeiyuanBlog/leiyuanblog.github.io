@@ -1,0 +1,14 @@
+# robots.txt for leiyuanblog.github.io
+
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://leiyuanblog.github.io/sitemap.xml
+
+# Disallow admin and private paths
+Disallow: /pwa/
+Disallow: /*.json$
+
+# Crawl delay (optional, be nice to servers)
+Crawl-delay: 1

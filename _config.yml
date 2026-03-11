@@ -1,10 +1,10 @@
 # Site settings
 title: Lei Yuan
-SEOTitle: 雷园的博客 | Lei Yuan
+SEOTitle: 雷园的博客 | Lei Yuan Blog
 header-img: img/post-bg-desk.jpg
 email: 15326047083@163.com
-description: "Every failure is leading towards success."
-keyword: "LY, LY Blog, 雷园的博客, leiyuanblog, 雷园, java, Apple, iPhone"
+description: "雷园的技术博客 - 分享Java、Docker、Kubernetes、微服务、云原生等技术文章，帮助开发者提升技术能力。Every failure is leading towards success."
+keyword: "雷园, Lei Yuan, Java开发, Docker教程, Kubernetes, K8s, 微服务, Spring Boot, 云原生, 后端开发, 技术博客, 编程学习"
 url: "https://leiyuanblog.github.io"          # your host, for absolute URL
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
 github_repo: "https://github.com/leiyuanblog/leiyuanblog.github.io.git" # you code repository
